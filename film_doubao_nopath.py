@@ -447,7 +447,7 @@ class VideoBrowser(QMainWindow):
             self.build_tree(self.edt_search.text())
         except Exception as e:
             QMessageBox.critical(self, "删除失败", f"删除文件出错：{str(e)}")
-            print("c")
+            print("d")
 
 #==========================================================================
 ######################无打开文件夹记录功能版###################################
